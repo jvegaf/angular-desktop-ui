@@ -1,5 +1,5 @@
 @import "./reset";
-@import "~@angular/cdk/overlay";
+@import "@angular/cdk/overlay";
 @include cdk-overlay();
 
 html {
