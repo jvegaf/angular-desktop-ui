@@ -8,7 +8,7 @@
     "sourceMap": true,
     "declaration": true,
     "strict": true,
-    "target": "es2020",
+    "target": "ES2022",
     "esModuleInterop": true,
     "typeRoots": [
       "node_modules/@types"
@@ -21,7 +21,8 @@
       "angular-desktop-ui": [
         "dist/"
       ]
-    }
+    },
+    "useDefineForClassFields": false
   },
   "include": [
     "./src",
